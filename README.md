@@ -41,3 +41,8 @@ JavaUseOnceLoaded("com.saifyproduction.activityrecognition.BackgroundDetectedAct
 })
 
 ```
+
+The following demo recording shows how two methods of the aforementioned class are hooked, once the class gets loaded.
+Trying to call `Java.use()` directly once the application spawns results in an exception, which is printed first.
+
+[![asciicast](https://asciinema.org/a/jORYR2PwNGWxy7K598cn6weg8.svg)](https://asciinema.org/a/jORYR2PwNGWxy7K598cn6weg8)
